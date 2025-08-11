@@ -12,3 +12,5 @@ Table of Contents
 2. Features
 3. Architecture
 4. Repo Structure
+5. Quickstart (Dev / Paper Trading)
+6. Configuration & Environment Variables
