@@ -4,3 +4,8 @@ A production-style, agentic AI trading bot that combines LLM reasoning, sentimen
 
 
 This repo is designed as a portfolio / research project showing full-stack ML engineering: ingestion, models, agents (tool orchestration), backtesting, execution, monitoring, and a small UI
+
+
+Table of Contents
+
+1. Project Overview
