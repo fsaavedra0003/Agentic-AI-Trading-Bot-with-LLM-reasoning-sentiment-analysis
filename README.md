@@ -9,3 +9,4 @@ This repo is designed as a portfolio / research project showing full-stack ML en
 Table of Contents
 
 1. Project Overview
+2. Features
