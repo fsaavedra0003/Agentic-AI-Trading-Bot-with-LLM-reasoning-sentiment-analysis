@@ -14,3 +14,4 @@ Table of Contents
 4. Repo Structure
 5. Quickstart (Dev / Paper Trading)
 6. Configuration & Environment Variables
+7. Detailed Components
