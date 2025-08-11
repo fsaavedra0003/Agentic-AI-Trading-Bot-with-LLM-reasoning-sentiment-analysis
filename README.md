@@ -15,3 +15,6 @@ Table of Contents
 5. Quickstart (Dev / Paper Trading)
 6. Configuration & Environment Variables
 7. Detailed Components
+
+Ingestion
+
