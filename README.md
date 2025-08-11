@@ -10,3 +10,4 @@ Table of Contents
 
 1. Project Overview
 2. Features
+3. Architecture
