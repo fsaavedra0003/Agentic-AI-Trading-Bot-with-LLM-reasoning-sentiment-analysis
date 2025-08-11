@@ -21,3 +21,7 @@ Ingestion
 LLM Layer & Prompts
 
 Decision Agent (Tooling)
+
+Prediction Models / Backtesting
+
+Execution
