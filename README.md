@@ -27,3 +27,5 @@ Prediction Models / Backtesting
 Execution
 
 Dashboard & Monitoring
+
+8.Example Prompts & Response Schema
