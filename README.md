@@ -28,6 +28,8 @@ Execution
 
 Dashboard & Monitoring
 
-8.Example Prompts & Response Schema
+8. Example Prompts & Response Schema
 
-9.Risk Management & Safety
+9. Risk Management & Safety
+
+10. Deployment Suggestions
