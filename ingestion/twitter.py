@@ -1,7 +1,7 @@
 # ingestion/twitter.py
 """
 Twitter ingestion helper (Twitter API v2 recent search)
-- Uses Bearer Token for auth (env var or passed in)
+- Uses Bearer Token for auth (env var, .env file, or passed in)
 - Stores tweets to a local SQLite DB by default
 - Simple retry/backoff and basic rate-limit handling
 """
@@ -13,6 +13,10 @@ import logging
 import sqlite3
 from typing import List, Dict, Optional
 import requests
+from dotenv import load_dotenv  # NEW: for .env file loading
+
+# Load environment variables from .env if available
+load_dotenv()
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO)
@@ -60,9 +64,10 @@ class TwitterIngestor:
     SEARCH_URL = "https://api.twitter.com/2/tweets/search/recent"
 
     def __init__(self, bearer_token: Optional[str] = None, storage: Optional[SQLiteStorage] = None):
+        # Prefer explicit token > environment variable > .env (loaded above)
         self.bearer_token = bearer_token or os.getenv("TWITTER_BEARER_TOKEN")
         if not self.bearer_token:
-            raise ValueError("Twitter bearer token required (env TWITTER_BEARER_TOKEN or param).")
+            raise ValueError("Twitter bearer token required (env TWITTER_BEARER_TOKEN, .env file, or param).")
         self.headers = {"Authorization": f"Bearer {self.bearer_token}"}
         self.storage = storage or SQLiteStorage()
 
@@ -109,7 +114,7 @@ class TwitterIngestor:
 
 
 if __name__ == "__main__":
-    # quick demo (set env TWITTER_BEARER_TOKEN before running)
+    # quick demo (reads TWITTER_BEARER_TOKEN from .env or env vars)
     import argparse
 
     parser = argparse.ArgumentParser()
@@ -117,6 +122,6 @@ if __name__ == "__main__":
     parser.add_argument("--n", type=int, default=10)
     args = parser.parse_args()
 
-    ingestor = TwitterIngestor()  # reads TWITTER_BEARER_TOKEN
+    ingestor = TwitterIngestor()
     tweets = ingestor.fetch_recent(args.q, max_results=args.n)
     print(f"Saved {len(tweets)} tweets.")
