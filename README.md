@@ -35,3 +35,5 @@ Dashboard & Monitoring
 10. Deployment Suggestions
 
 11. Testing & Evaluation
+
+12. Contributing
