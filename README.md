@@ -41,3 +41,10 @@ Dashboard & Monitoring
 13. License
 
 14. Acknowledgements
+
+
+The Reddit Ingestion Script for AI Trading Bot
+-------------------------------------------
+- Fetches posts from relevant subreddits
+- Filters by keywords/tickers
+- Saves results to JSON for sentiment analysis
