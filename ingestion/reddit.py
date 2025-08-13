@@ -1,126 +1,68 @@
-# ingestion/reddit.py
 """
-Reddit ingestion via Pushshift (good for historical / keyword search)
-- Uses Pushshift public API (no auth) for submissions/comments
-- Stores results to SQLite by default
-- If you want PRAW (official Reddit) streaming, I can provide a variant
-- Now supports .env files for environment variables (via python-dotenv)
+Reddit Ingestion Script for AI Trading Bot
+-------------------------------------------
+- Fetches posts from relevant subreddits
+- Filters by keywords/tickers
+- Saves results to JSON for sentiment analysis
 """
-
-
-#This file is responsible for collecting and preparing Reddit data that the bot will later feed into the LLM for sentiment analysis.
 
 import os
-import time
 import json
-import logging
-import sqlite3
-from typing import List, Dict, Optional
-import requests
-from dotenv import load_dotenv  # NEW: for .env file loading
+from datetime import datetime
+from typing import List
+import praw
+from dotenv import load_dotenv
 
-# Load environment variables from .env file if present
+# Load environment variables from .env
 load_dotenv()
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+# Reddit API authentication
+REDDIT_CLIENT_ID = os.getenv("REDDIT_CLIENT_ID")
+REDDIT_CLIENT_SECRET = os.getenv("REDDIT_CLIENT_SECRET")
+REDDIT_USER_AGENT = os.getenv("REDDIT_USER_AGENT", "ai-trading-bot/1.0")
 
+if not REDDIT_CLIENT_ID or not REDDIT_CLIENT_SECRET:
+    raise ValueError("Missing Reddit API credentials. Please set them in the .env file.")
 
-class SQLiteStorage:
-    def __init__(self, path: str = "data/reddit.db"):
-        os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-        self.conn = sqlite3.connect(path, check_same_thread=False)
-        self._create_table()
+# Create Reddit API client
+reddit = praw.Reddit(
+    client_id=REDDIT_CLIENT_ID,
+    client_secret=REDDIT_CLIENT_SECRET,
+    user_agent=REDDIT_USER_AGENT
+)
 
-    def _create_table(self):
-        self.conn.execute(
-            """
-            CREATE TABLE IF NOT EXISTS reddit_submissions (
-                id TEXT PRIMARY KEY,
-                title TEXT,
-                selftext TEXT,
-                subreddit TEXT,
-                author TEXT,
-                created_utc INTEGER,
-                raw_json TEXT
-            );
-            """
-        )
-        self.conn.commit()
+def fetch_reddit_posts(keywords: List[str], subreddits: List[str], limit: int = 50):
+    """Fetch recent Reddit posts containing given keywords."""
+    results = []
+    subreddit_str = "+".join(subreddits)
+    search_query = " OR ".join(keywords)
 
-    def save_submission(self, sub: Dict):
-        try:
-            self.conn.execute(
-                "INSERT OR REPLACE INTO reddit_submissions (id, title, selftext, subreddit, author, created_utc, raw_json) VALUES (?, ?, ?, ?, ?, ?, ?)",
-                (
-                    sub.get("id"),
-                    sub.get("title"),
-                    sub.get("selftext"),
-                    sub.get("subreddit"),
-                    sub.get("author"),
-                    sub.get("created_utc"),
-                    json.dumps(sub, ensure_ascii=False),
-                ),
-            )
-            self.conn.commit()
-        except Exception:
-            logger.exception("Failed to save submission %s", sub.get("id"))
+    print(f"[INFO] Searching for: {search_query} in {subreddit_str}")
 
+    subreddit = reddit.subreddit(subreddit_str)
+    for post in subreddit.search(search_query, sort="new", limit=limit):
+        results.append({
+            "id": post.id,
+            "created_utc": datetime.utcfromtimestamp(post.created_utc).isoformat(),
+            "title": post.title,
+            "body": post.selftext,
+            "score": post.score,
+            "num_comments": post.num_comments,
+            "url": post.url,
+            "subreddit": post.subreddit.display_name
+        })
+    return results
 
-class PushshiftRedditIngestor:
-    BASE = "https://api.pushshift.io/reddit/search/submission/"
-
-    def __init__(self, storage: Optional[SQLiteStorage] = None):
-        # Example: If later you want to use an API key from .env
-        # self.api_key = os.getenv("PUSHSHIFT_API_KEY")
-        self.storage = storage or SQLiteStorage()
-
-    def fetch_submissions(
-        self,
-        subreddit: Optional[str] = None,
-        query: Optional[str] = None,
-        after: Optional[int] = None,
-        before: Optional[int] = None,
-        size: int = 100,
-    ) -> List[Dict]:
-        """
-        Query Pushshift for submissions.
-        - subreddit: e.g. 'wallstreetbets'
-        - query: text search
-        - after/before: unix timestamps
-        - size: max results (api may cap)
-        """
-        params = {"size": min(size, 500)}
-        if subreddit:
-            params["subreddit"] = subreddit
-        if query:
-            params["q"] = query
-        if after:
-            params["after"] = str(after)
-        if before:
-            params["before"] = str(before)
-
-        backoff = 1
-        for attempt in range(5):
-            resp = requests.get(self.BASE, params=params, timeout=20)
-            if resp.status_code == 200:
-                data = resp.json().get("data", []) or []
-                logger.info("Pushshift returned %d submissions", len(data))
-                for s in data:
-                    self.storage.save_submission(s)
-                return data
-            else:
-                logger.warning("Pushshift error %s: %s", resp.status_code, resp.text)
-                time.sleep(backoff)
-                backoff = min(backoff * 2, 30)
-        raise RuntimeError("Pushshift API failed after retries")
-
+def save_posts_to_json(posts, output_path: str):
+    """Save fetched Reddit posts to JSON file."""
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(posts, f, indent=2, ensure_ascii=False)
+    print(f"[INFO] Saved {len(posts)} posts to {output_path}")
 
 if __name__ == "__main__":
-    # Example: If you later want subreddit/query from .env:
-    subreddit = os.getenv("REDDIT_SUBREDDIT", "wallstreetbets")
-    query = os.getenv("REDDIT_QUERY", "GME")
+    KEYWORDS = ["Tesla", "TSLA", "Bitcoin", "BTC", "AAPL", "Apple"]
+    SUBREDDITS = ["stocks", "wallstreetbets", "investing", "cryptocurrency"]
 
-    ingestor = PushshiftRedditIngestor()
-    subs = ingestor.fetch_submissions(subreddit=subreddit, query=query, size=25)
-    print(f"Saved {len(subs)} submissions.")
+    posts = fetch_reddit_posts(KEYWORDS, SUBREDDITS, limit=50)
+    save_posts_to_json(posts, "data/raw/reddit_posts.json")
