@@ -7,6 +7,9 @@ Reddit ingestion via Pushshift (good for historical / keyword search)
 - Now supports .env files for environment variables (via python-dotenv)
 """
 
+
+#This file is responsible for collecting and preparing Reddit data that the bot will later feed into the LLM for sentiment analysis.
+
 import os
 import time
 import json
