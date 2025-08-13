@@ -1,2 +1,4 @@
 requests
 feedparser
+praw
+python-dotenv
