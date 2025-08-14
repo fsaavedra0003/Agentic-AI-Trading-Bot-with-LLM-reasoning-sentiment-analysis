@@ -43,7 +43,7 @@ Dashboard & Monitoring
 14. Acknowledgements
 
 
-The Reddit Ingestion Script for AI Trading Bot
+1 The Reddit Ingestion Script for AI Trading Bot
 -------------------------------------------
 - Fetches posts from relevant subreddits
 - Filters by keywords/tickers
