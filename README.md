@@ -47,4 +47,4 @@ Dashboard & Monitoring
 -------------------------------------------
 - Fetches posts from relevant subreddits
 - Filters by keywords/tickers
-- Saves results to JSON for later sentiment analysis
+- Saves results to JSON for sentiment analysis
