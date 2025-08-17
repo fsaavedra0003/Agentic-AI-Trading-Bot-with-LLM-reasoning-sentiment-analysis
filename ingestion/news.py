@@ -1,43 +1,59 @@
- ingestion/news.py
 """
-News ingestion:
-- Primary: NewsAPI.org (requires API key)
-- Fallback: RSS via feedparser for keyword feeds
-- Stores to SQLite by default
+News Ingestion Script for AI Trading Bot
+----------------------------------------
+- Fetches latest financial news articles
+- Filters by keywords (tickers, company names)
+- Saves results to JSON for sentiment analysis
 """
 
 import os
-import time
 import json
-import logging
-import sqlite3
-from typing import List, Dict, Optional
 import requests
-import feedparser
+from datetime import datetime
+from dotenv import load_dotenv
 
-logger = logging.getLogger(__name__)
-logging.basicConfig(level=logging.INFO)
+# Load API key from .env
+load_dotenv()
+NEWS_API_KEY = os.getenv("NEWS_API_KEY")
 
+if not NEWS_API_KEY:
+    raise ValueError("Missing NEWS_API_KEY. Please add it to .env")
 
-class SQLiteStorage:
-    def __init__(self, path: str = "data/news.db"):
-        os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
-        self.conn = sqlite3.connect(path, check_same_thread=False)
-        self._create_table()
-        def _create_table(self):
-        self.conn.execute(
-            """
-            CREATE TABLE IF NOT EXISTS news (
-                id TEXT PRIMARY KEY,
-                source TEXT,
-                author TEXT,
-                title TEXT,
-                description TEXT,
-                url TEXT,
-                published_at TEXT,
-                raw_json TEXT
-            );
-            """
-        )
-        self.conn.commit()
+BASE_URL = "https://newsapi.org/v2/everything"
 
+def fetch_news(keywords, limit=20):
+    """Fetch news articles containing given keywords."""
+    query = " OR ".join(keywords)
+    params = {
+        "q": query,
+        "apiKey": NEWS_API_KEY,
+        "language": "en",
+        "sortBy": "publishedAt",
+        "pageSize": limit
+    }
+    response = requests.get(BASE_URL, params=params)
+    response.raise_for_status()
+    data = response.json()
+    
+    results = []
+    for article in data.get("articles", []):
+        results.append({
+            "title": article["title"],
+            "description": article.get("description", ""),
+            "content": article.get("content", ""),
+            "published_at": article["publishedAt"],
+            "source": article["source"]["name"],
+            "url": article["url"]
+        })
+    return results
+
+def save_news_to_json(news, output_path="data/raw/news.json"):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(news, f, indent=2, ensure_ascii=False)
+    print(f"[INFO] Saved {len(news)} news articles to {output_path}")
+
+if __name__ == "__main__":
+    KEYWORDS = ["Tesla", "Bitcoin", "Apple", "Microsoft"]
+    news = fetch_news(KEYWORDS, limit=30)
+    save_news_to_json(news)
