@@ -24,4 +24,20 @@ class SQLiteStorage:
         os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
         self.conn = sqlite3.connect(path, check_same_thread=False)
         self._create_table()
+        def _create_table(self):
+        self.conn.execute(
+            """
+            CREATE TABLE IF NOT EXISTS news (
+                id TEXT PRIMARY KEY,
+                source TEXT,
+                author TEXT,
+                title TEXT,
+                description TEXT,
+                url TEXT,
+                published_at TEXT,
+                raw_json TEXT
+            );
+            """
+        )
+        self.conn.commit()
 
