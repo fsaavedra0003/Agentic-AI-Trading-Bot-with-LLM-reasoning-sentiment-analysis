@@ -14,3 +14,5 @@ import sqlite3
 from typing import List, Dict, Optional
 import requests
 import feedparser
+
+logger = logging.getLogger(__name__)
