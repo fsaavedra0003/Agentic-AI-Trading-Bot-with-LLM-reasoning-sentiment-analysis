@@ -8,3 +8,4 @@ News ingestion:
 
 import os
 import time
+import json
