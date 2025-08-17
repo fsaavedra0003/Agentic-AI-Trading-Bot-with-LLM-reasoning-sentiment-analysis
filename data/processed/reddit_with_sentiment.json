@@ -8,7 +8,11 @@
     "num_comments": 25,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mp89co/crypto_in_401ks/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author expresses excitement about the availability of crypto in retirement accounts and believes it presents a significant opportunity for younger individuals to invest and potentially retire earlier with more wealth."
+    "sentiment": "Positive",
+    "tickers": [
+      "ETH",
+      "BTC"
+    ]
   },
   {
     "id": "1mp7nya",
@@ -19,7 +23,11 @@
     "num_comments": 113,
     "url": "https://i.redd.it/zn4jtz4d0tif1.jpeg",
     "subreddit": "wallstreetbets",
-    "sentiment": "The financial sentiment of the provided text is **Positive**. \n\nThe author expresses optimism about Unity's potential for growth, particularly with the new AI-powered ad platform, Vector. They highlight the company's strong market position, institutional support, and recent positive earnings performance. The text also discusses potential short squeezes and gamma squeezes, indicating a bullish outlook on the stock. Overall, the tone is encouraging and supportive of Unity's future prospects."
+    "sentiment": "Positive",
+    "tickers": [
+      "U",
+      "APP"
+    ]
   },
   {
     "id": "1mp7itl",
@@ -30,7 +38,10 @@
     "num_comments": 38,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mp7itl/the_crypto_bull_market_hasnt_even_gone_full/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. \n\nThe text discusses the potential for a significant upward movement in the crypto market, highlighting various factors that could contribute to a bullish scenario. It emphasizes optimism about future price action, the fading of negative narratives, and the increasing acceptance of crypto by governments and institutions, all of which suggest a positive outlook on the market."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1mp7gmz",
@@ -41,7 +52,11 @@
     "num_comments": 0,
     "url": "https://news.bitcoin.com/xrp-price-watch-technical-indicators-signal-accumulation-phase/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The statement discusses technical indicators and market conditions without expressing a clear positive or negative sentiment."
+    "sentiment": "Neutral",
+    "tickers": [
+      "XRP",
+      "BTC"
+    ]
   },
   {
     "id": "1mp7443",
@@ -52,7 +67,10 @@
     "num_comments": 27,
     "url": "https://i.redd.it/egz5ye62zsif1.jpeg",
     "subreddit": "wallstreetbets",
-    "sentiment": "The financial sentiment of the text is **Neutral**. While it expresses frustration, it also indicates a long-term holding strategy and a plan to sell gradually, which balances the sentiment."
+    "sentiment": "Negative",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "id": "1mp6fpt",
@@ -63,7 +81,10 @@
     "num_comments": 50,
     "url": "https://www.reddit.com/r/investing/comments/1mp6fpt/90_of_investment_is_in_aapl/",
     "subreddit": "investing",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author expresses satisfaction with their investment in Apple, mentions earnings from it, and discusses plans for future financial growth and stability. Overall, the tone is optimistic about their financial situation and future goals."
+    "sentiment": "Positive",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "id": "1mp5lg5",
@@ -74,7 +95,11 @@
     "num_comments": 47,
     "url": "https://coinmarketcap.com/currencies/bitcoin/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ]
   },
   {
     "id": "1mp4pux",
@@ -85,7 +110,10 @@
     "num_comments": 14,
     "url": "https://cointelegraph.com/news/trump-big-beautiful-bill-us-debt-record-37t-congressman-massie?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Neutral**. While it mentions significant figures related to US debt and money growth, it does not express a clear positive or negative sentiment about these developments. Instead, it presents information that could be interpreted in various ways depending on the reader's perspective."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mp3xtz",
@@ -96,7 +124,8 @@
     "num_comments": 16,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mp3xtz/bitcoin/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Negative**. The author expresses concerns about the unfairness of the financial system, the influence of wealthy individuals, and the issues related to inflation and currency value. While there is a mention of Bitcoin's qualities, the overall tone is critical of the current financial system and its implications."
+    "sentiment": "Negative",
+    "tickers": []
   },
   {
     "id": "1mp32d9",
@@ -107,7 +136,10 @@
     "num_comments": 8,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mp32d9/what_is_value_and_price_and_why_bitcoins_price/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. \n\nThe text discusses the potential for Bitcoin's price to rise and outlines various factors that support this outlook, presenting a generally optimistic view of Bitcoin as an asset. It emphasizes the strengths and advantages of Bitcoin in the context of value and price, suggesting a favorable perspective on its future."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1mp2osj",
@@ -118,7 +150,10 @@
     "num_comments": 2,
     "url": "https://www.coindesk.com/markets/2025/08/12/kazakhstan-s-fonte-capital-introduces-central-asia-s-first-spot-bitcoin-etf",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1mp251l",
@@ -129,7 +164,12 @@
     "num_comments": 114,
     "url": "https://www.reddit.com/r/stocks/comments/1mp251l/blsh_ipo_dd/",
     "subreddit": "stocks",
-    "sentiment": "The financial sentiment of the provided text is **Neutral**. \n\nWhile it presents both positive aspects (such as significant revenue and liquidity) and negative aspects (like substantial losses and volatility), it does not lean strongly towards a positive or negative sentiment overall. The analysis is factual and balanced, highlighting both strengths and weaknesses without expressing a clear bias."
+    "sentiment": "Negative",
+    "tickers": [
+      "BLSH",
+      "BTC",
+      "ETH"
+    ]
   },
   {
     "id": "1mp1e3z",
@@ -140,7 +180,8 @@
     "num_comments": 1,
     "url": "https://cyberinsider.com/apple-accused-of-quietly-patching-imessage-zero-click-exploit/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text \"Wi-Fi Worm on iOS Draining Crypto — No Warning from Apple\" can be classified as **Negative**. The mention of a \"Wi-Fi Worm\" and \"Draining Crypto\" suggests a harmful situation, and the lack of warning from Apple implies negligence, which contributes to a negative sentiment."
+    "sentiment": "Negative",
+    "tickers": []
   },
   {
     "id": "1moyw5t",
@@ -151,7 +192,12 @@
     "num_comments": 0,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1moyw5t/psa_remmitix_coin_blockdag_coin_bitcoinhyper_coin/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Negative**. The author expresses strong disapproval and frustration towards certain cryptocurrencies, labeling them as scams and warning others to avoid them."
+    "sentiment": "Negative",
+    "tickers": [
+      "$Remmitix",
+      "$BlockDAG",
+      "$BitcoinHyper"
+    ]
   },
   {
     "id": "1moxxwl",
@@ -162,7 +208,11 @@
     "num_comments": 4,
     "url": "https://www.coindesk.com/markets/2025/08/13/bitcoin-holds-near-usd120k-ether-rallies-towards-usd4-7k-on-trump-s-comment-fed-rate-cut-bets",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The mention of BTC holding near a high value and ETH rallying suggests a favorable market condition, especially in the context of potential rate cuts."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ]
   },
   {
     "id": "1moxquz",
@@ -173,7 +223,10 @@
     "num_comments": 0,
     "url": "https://www.theblock.co/post/366704/bitcoin-launchpad-odin-fun-exploit",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is Negative."
+    "sentiment": "Negative",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1moup8m",
@@ -184,7 +237,11 @@
     "num_comments": 12,
     "url": "https://www.reddit.com/gallery/1moup8m",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The author is seeking clarification and expressing confusion about the market behavior without a clear positive or negative sentiment towards the situation. They are reporting on the dips and rebounds in cryptocurrency values but do not express strong feelings about them."
+    "sentiment": "Neutral",
+    "tickers": [
+      "BTC",
+      "ETH"
+    ]
   },
   {
     "id": "1mou95x",
@@ -195,7 +252,10 @@
     "num_comments": 15,
     "url": "https://cointelegraph.com/news/bitcoin-traders-target-137k-as-us-cpi-print-raises-fed-rate-cut-odds-to-94",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The mention of Bitcoin traders targeting a high price and the implication of favorable conditions for rate cuts suggest optimism in the market."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mou3r0",
@@ -206,7 +266,10 @@
     "num_comments": 128,
     "url": "https://www.reddit.com/gallery/1mou3r0",
     "subreddit": "wallstreetbets",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author mentions being \"in the green,\" indicating a profitable situation, and expresses excitement about the competition among AI models for investing."
+    "sentiment": "Positive",
+    "tickers": [
+      "TSLA"
+    ]
   },
   {
     "id": "1motekr",
@@ -217,7 +280,10 @@
     "num_comments": 15,
     "url": "https://www.mitrade.com/insights/news/live-news/article-3-1034142-20250813",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is Neutral."
+    "sentiment": "Neutral",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1morl3s",
@@ -228,7 +294,10 @@
     "num_comments": 2,
     "url": "https://i.redd.it/cb6ux3uvyoif1",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author expresses optimism about the potential rise of the memecoin $AABL, indicating a belief in its future success and popularity. The repeated phrase \"Abble flips apple\" suggests a strong enthusiasm for $AABL compared to Apple, further reinforcing a positive sentiment."
+    "sentiment": "Positive",
+    "tickers": [
+      "AABL"
+    ]
   },
   {
     "id": "1moq85j",
@@ -239,7 +308,10 @@
     "num_comments": 6,
     "url": "https://beincrypto.com/fast-food-chain-bitcoin-payments-overtakes-mcdonalds-sales/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text \"Bitcoin Helps a Fast Food Chain Overthrow McDonald’s and Domino’s\" can be classified as **Positive**. The use of the word \"helps\" suggests a beneficial impact, and the phrase \"overthrow\" implies a competitive advantage or success, which conveys a positive sentiment towards Bitcoin's influence in this context."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1momf4m",
@@ -250,7 +322,12 @@
     "num_comments": 14,
     "url": "https://www.reddit.com/gallery/1momf4m",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Negative**. The author expresses frustration and concern about the disappearance of their asset, lack of communication from customer support, and uncertainty about the situation."
+    "sentiment": "Negative",
+    "tickers": [
+      "BTC",
+      "SOL",
+      "ETH"
+    ]
   },
   {
     "id": "1mokrc2",
@@ -261,7 +338,10 @@
     "num_comments": 31,
     "url": "https://www.reddit.com/gallery/1mokrc2",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mokg8t",
@@ -272,7 +352,10 @@
     "num_comments": 4,
     "url": "https://www.cryptopolitan.com/belarus-readies-breakthroughs-as-lukashenko-urges-for-bitcoin-payments/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The statement presents information about Belarus and Bitcoin payments without expressing a clear positive or negative opinion."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mojqff",
@@ -283,7 +366,10 @@
     "num_comments": 9,
     "url": "https://www.reddit.com/r/investing/comments/1mojqff/how_should_i_invest_as_a_15yearold_with_aed_1100/",
     "subreddit": "investing",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author expresses enthusiasm about investing and learning about the markets, and they have a clear plan for their investments. They are seeking advice and engaging with the community, which indicates a proactive and optimistic approach to their financial future."
+    "sentiment": "Positive",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "id": "1mohxvi",
@@ -294,7 +380,10 @@
     "num_comments": 11,
     "url": "https://www.newsbtc.com/news/bitcoin-4-year-cycle-fades-out-as-fresh-market-forces-emerge/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text \"Bitcoin 4-Year Rhythm Fades Out As Fresh Market Forces Emerge\" can be classified as Neutral. The statement describes a change in market dynamics without expressing a clear positive or negative sentiment."
+    "sentiment": "Neutral",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mohbkg",
@@ -305,7 +394,23 @@
     "num_comments": 115,
     "url": "https://www.reddit.com/r/stocks/comments/1mohbkg/i_just_sold_a_decent_amount_of_stock/",
     "subreddit": "stocks",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author shares significant gains from stock sales, expresses excitement about their trading decisions, and discusses their portfolio in a generally optimistic manner."
+    "sentiment": "Positive",
+    "tickers": [
+      "APLD",
+      "NBIS",
+      "ALAB",
+      "RDDT",
+      "ONDS",
+      "SMCI",
+      "HOOD",
+      "META",
+      "QQQ",
+      "ARKW",
+      "NVDA",
+      "VRT",
+      "AAPL",
+      "SGOV"
+    ]
   },
   {
     "id": "1mog682",
@@ -316,7 +421,10 @@
     "num_comments": 7,
     "url": "https://youtu.be/MEF3YUvLNS0?si=aX1PC6iA3vPxb1iV&t=1149",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mocvvv",
@@ -327,7 +435,8 @@
     "num_comments": 133,
     "url": "https://www.reddit.com/r/stocks/comments/1mocvvv/perplexity_makes_longshot_345_billion_offer_for/",
     "subreddit": "stocks",
-    "sentiment": "The financial sentiment of the text can be classified as **Neutral**. \n\nWhile it discusses a significant offer and the potential implications of the acquisition, it also expresses uncertainty about the effectiveness of the offer and the ongoing legal challenges, which balances the overall sentiment. There are no strong positive or negative emotions conveyed, making it more neutral in tone."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "id": "1mociz8",
@@ -338,7 +447,10 @@
     "num_comments": 4,
     "url": "https://cryptopotato.com/metaplanet-adds-518-btc-now-holds-1-85-billion-worth-of-bitcoin/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1mobih3",
@@ -349,7 +461,11 @@
     "num_comments": 21,
     "url": "https://www.reddit.com/r/stocks/comments/1mobih3/mp_materials/",
     "subreddit": "stocks",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author expresses optimism about the stock's performance, highlights significant investments and positive developments related to the company, and sees \"huge potential\" in the stock."
+    "sentiment": "Positive",
+    "tickers": [
+      "MP",
+      "AAPL"
+    ]
   },
   {
     "id": "1moazs4",
@@ -360,7 +476,10 @@
     "num_comments": 23,
     "url": "https://i.redd.it/27vyq11mrlif1.jpeg",
     "subreddit": "wallstreetbets",
-    "sentiment": "The financial sentiment of the text is **Positive**. The phrase \"stocks go up!! Buy the dip\" indicates an optimistic outlook on the stock market, despite mentioning that the stock has been flat for three months."
+    "sentiment": "Positive",
+    "tickers": [
+      "TSLA"
+    ]
   },
   {
     "id": "1mo9u8p",
@@ -371,7 +490,10 @@
     "num_comments": 38,
     "url": "https://finbold.com/milestone-bitcoin-has-not-been-declared-dead-in-over-a-year/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mo9qtp",
@@ -382,7 +504,8 @@
     "num_comments": 17,
     "url": "https://www.reddit.com/gallery/1mo9qtp",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The statement presents an observation about the relationship between the dollar and hard assets without expressing a positive or negative opinion."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "id": "1mo95qn",
@@ -393,7 +516,10 @@
     "num_comments": 17,
     "url": "https://www.reddit.com/r/stocks/comments/1mo95qn/tesla_is_hiring_robotaxi_test_drivers_in_new_york/",
     "subreddit": "stocks",
-    "sentiment": "The financial sentiment of the text is Neutral. \n\nWhile it discusses Tesla's hiring of test drivers, it also highlights the lack of necessary permits for testing autonomous vehicles in New York City, presenting a factual account without strong positive or negative language."
+    "sentiment": "Neutral",
+    "tickers": [
+      "TSLA"
+    ]
   },
   {
     "id": "1mo7qps",
@@ -404,7 +530,11 @@
     "num_comments": 90,
     "url": "https://www.cryptopolitan.com/ethereum-etf-inflows-hit-1b-5x-bitcoin/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "ETH",
+      "BTC"
+    ]
   },
   {
     "id": "1mo6zt2",
@@ -415,7 +545,11 @@
     "num_comments": 5,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mo6zt2/new_crypto_dashboard_app_i_made/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The author is sharing a new project and is open to feedback, which indicates enthusiasm and a constructive approach."
+    "sentiment": "Positive",
+    "tickers": [
+      "ETH",
+      "BTC"
+    ]
   },
   {
     "id": "1mo60zo",
@@ -426,7 +560,11 @@
     "num_comments": 63,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mo60zo/simpleswap_holding_over_200k_of_my_funds/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Negative**."
+    "sentiment": "Negative",
+    "tickers": [
+      "BTC",
+      "USDT"
+    ]
   },
   {
     "id": "1mo5hjs",
@@ -437,7 +575,10 @@
     "num_comments": 6,
     "url": "https://www.ig.com/sg/news-and-trade-ideas/bitcoin-closes-in-on-record-high-250811",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mo4dwu",
@@ -448,7 +589,10 @@
     "num_comments": 25,
     "url": "https://peakd.com/hive-167922/@okolakk/coinbase-to-offer-bitcoin-backed",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text \"Coinbase to Offer Bitcoin-Backed Loans\" can be classified as **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mo25gw",
@@ -459,7 +603,10 @@
     "num_comments": 3,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mo25gw/bitcoin_weekly_market_update_11_august_2025/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The text discusses a favorable outlook for Bitcoin, mentions a price target of $142k, and indicates that the market conditions are not bearish. Additionally, it highlights a mindset of patience and optimism regarding future price movements."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mo1345",
@@ -470,7 +617,11 @@
     "num_comments": 61,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mo1345/stop_the_government_taking_a_cut/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Negative**. The author expresses frustration with government intervention, taxation, and the perceived unfairness of the financial system, advocating for the use of Monero as a means to achieve financial freedom and privacy. The tone is critical and confrontational towards government policies and traditional financial institutions."
+    "sentiment": "Positive",
+    "tickers": [
+      "XMR",
+      "BTC"
+    ]
   },
   {
     "id": "1mo0rxt",
@@ -481,7 +632,10 @@
     "num_comments": 3,
     "url": "https://coinfomania.com/metaplanet-buys-518-btc-for-61-4m-as-bitcoin-yield-jumps-468/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1mo0r05",
@@ -492,7 +646,10 @@
     "num_comments": 91,
     "url": "https://i.redd.it/2n0nhbee3jif1.png",
     "subreddit": "wallstreetbets",
-    "sentiment": "The financial sentiment of the text is **Negative**."
+    "sentiment": "Negative",
+    "tickers": [
+      "TSLA"
+    ]
   },
   {
     "id": "1mo0lch",
@@ -503,7 +660,10 @@
     "num_comments": 57,
     "url": "https://www.reddit.com/r/CryptoCurrency/comments/1mo0lch/us_might_print_900b_without_selling_a_single/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text can be classified as **Neutral**. \n\nWhile the text discusses potential positive outcomes for Bitcoin (BTC) and highlights interesting financial strategies, it also raises concerns about regulation and control risks associated with state involvement. The overall tone is analytical and presents both opportunities and risks without a strong positive or negative bias."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   },
   {
     "id": "1mnynih",
@@ -514,7 +674,10 @@
     "num_comments": 58,
     "url": "https://www.reddit.com/r/investing/comments/1mnynih/whats_the_first_stock_you_ever_bought_and_what/",
     "subreddit": "investing",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The author reflects on their experience with a stock purchase, acknowledging both luck and a lack of knowledge at the time, without expressing strong positive or negative feelings about the overall experience."
+    "sentiment": "Positive",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "id": "1mntkn3",
@@ -525,7 +688,10 @@
     "num_comments": 5,
     "url": "https://bitcoindefi.dev/",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mnp2ai",
@@ -536,7 +702,10 @@
     "num_comments": 5,
     "url": "https://www.reddit.com/gallery/1mnp2ai",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**. The statement indicates a clear directive and an ongoing effort to build a strategic Bitcoin reserve, which suggests optimism and a proactive approach towards Bitcoin."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "id": "1mnmaja",
@@ -547,6 +716,9 @@
     "num_comments": 78,
     "url": "https://cointelegraph.com/news/bitcoin-will-make-history-at-340k-btc-beats-2100-cycle-gains?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
     "subreddit": "CryptoCurrency",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC"
+    ]
   }
 ]

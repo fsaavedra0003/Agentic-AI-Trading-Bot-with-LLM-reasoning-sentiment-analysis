@@ -6,7 +6,8 @@
     "published_at": "2025-08-16T11:20:09Z",
     "source": "Marca",
     "url": "https://www.marca.com/en/nfl/jacksonville-jaguars/2025/08/16/68a0692f268e3e9b718b460a.html",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text discusses a personal announcement regarding family growth and does not express a clear positive or negative financial sentiment."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "I Tried Perplexity's Comet AI Web Browser and It Might Be the Future",
@@ -15,7 +16,8 @@
     "published_at": "2025-08-16T11:20:03Z",
     "source": "CNET",
     "url": "https://www.cnet.com/tech/services-and-software/i-tried-perplexitys-comet-ai-web-browser-and-it-might-be-the-future/",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": []
   },
   {
     "title": "ETH Rally Ends Below $5K as Analysts Predict Unilabs Could 3x Altcoin Gains by Year-End",
@@ -24,7 +26,10 @@
     "published_at": "2025-08-16T11:18:00Z",
     "source": "Cryptopolitan",
     "url": "https://partner.cryptopolitan.com/eth-rally-ends-below-5k-as-analysts-predict-unilabs-could-3x-altcoin-gains-by-year-end/",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "ETH"
+    ]
   },
   {
     "title": "Best Insurance Stocks Worth Watching – August 14th",
@@ -33,7 +38,12 @@
     "published_at": "2025-08-16T11:17:36Z",
     "source": "ETF Daily News",
     "url": "https://www.etfdailynews.com/2025/08/16/best-insurance-stocks-worth-watching-august-14th/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text provides information about stocks to watch without expressing a positive or negative opinion about them."
+    "sentiment": "Positive",
+    "tickers": [
+      "TSLA",
+      "UNH",
+      "BRK-B"
+    ]
   },
   {
     "title": "Music Stocks To Add to Your Watchlist – August 14th",
@@ -42,7 +52,14 @@
     "published_at": "2025-08-16T11:17:34Z",
     "source": "ETF Daily News",
     "url": "https://www.etfdailynews.com/2025/08/16/music-stocks-to-add-to-your-watchlist-august-14th/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text provides information about stocks to watch without expressing a positive or negative opinion about them."
+    "sentiment": "Neutral",
+    "tickers": [
+      "AMZN",
+      "AAPL",
+      "BABA",
+      "SPOT",
+      "DIS"
+    ]
   },
   {
     "title": "Top Automotive Stocks Worth Watching – August 13th",
@@ -51,7 +68,14 @@
     "published_at": "2025-08-16T11:17:12Z",
     "source": "ETF Daily News",
     "url": "https://www.etfdailynews.com/2025/08/16/top-automotive-stocks-worth-watching-august-13th/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text provides information about stocks to watch without expressing a positive or negative opinion about them."
+    "sentiment": "Neutral",
+    "tickers": [
+      "NVDA",
+      "TSLA",
+      "COST",
+      "MU",
+      "CRM"
+    ]
   },
   {
     "title": "More than 45 Summer films in 2025 used Blackmagic Design",
@@ -60,7 +84,8 @@
     "published_at": "2025-08-16T11:15:33Z",
     "source": "Provideocoalition.com",
     "url": "https://www.provideocoalition.com/more-than-45-summer-films-in-2025-used-blackmagic-design/",
-    "sentiment": "The financial sentiment of the text is **Positive**. The mention of successful films and the use of Blackmagic Design products in notable projects suggests a favorable outlook on the company's performance and reputation in the industry."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Microsoft keeps adding stuff into Windows we don't want - here's what we actually need",
@@ -69,7 +94,8 @@
     "published_at": "2025-08-16T11:11:05Z",
     "source": "Biztoc.com",
     "url": "https://biztoc.com/x/00fe86c33acb0e39",
-    "sentiment": "The financial sentiment of the text is **Negative**. The text expresses dissatisfaction with Microsoft's additions to Windows, indicating that users do not want these changes and suggesting a need for different features."
+    "sentiment": "Negative",
+    "tickers": []
   },
   {
     "title": "Microsoft keeps adding stuff into Windows we don't want - here's what we actually need",
@@ -78,7 +104,8 @@
     "published_at": "2025-08-16T11:02:08Z",
     "source": "Theregister.com",
     "url": "https://www.theregister.com/2025/08/16/microsoft_windows_features_help_productivity/",
-    "sentiment": "The financial sentiment of the text is **Negative**. The text expresses dissatisfaction with Microsoft's approach to adding features in Windows that users do not want, indicating frustration and a lack of appreciation for the company's decisions."
+    "sentiment": "Negative",
+    "tickers": []
   },
   {
     "title": "Inflation clouds Fed’s path, White House eyes Intel stake",
@@ -87,7 +114,8 @@
     "published_at": "2025-08-16T11:01:36Z",
     "source": "Detroit Free Press",
     "url": "https://www.freep.com/story/money/business/2025/08/16/inflation-clouds-white-house-intel-stake/85676230007/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. While it mentions a slight relief regarding the consumer price index, it also discusses inflation and the Fed's challenges, which balances the overall sentiment."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "iPhone 17 Air BATTERY Leak – Smallest EVER in a Flagship iPhone",
@@ -96,7 +124,10 @@
     "published_at": "2025-08-16T11:00:53Z",
     "source": "Geeky Gadgets",
     "url": "https://www.geeky-gadgets.com/iphone-17-air-battery-leak-smallest-ever-in-a-flagship-iphone/",
-    "sentiment": "The financial sentiment of the text is **Positive**. The description highlights the impressive features and design achievements of the iPhone 17 Air, suggesting a favorable outlook on the product."
+    "sentiment": "Positive",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "title": "Don't buy new headphones until you do these 5 steps with your old pair",
@@ -105,7 +136,8 @@
     "published_at": "2025-08-16T11:00:23Z",
     "source": "ZDNet",
     "url": "https://www.zdnet.com/article/dont-buy-new-headphones-until-you-do-these-5-steps-with-your-old-pair/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text provides advice on maintaining old headphones rather than making a purchase, without expressing a clear positive or negative sentiment towards spending or saving money."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "iPhone 17 vs. 17 Air, 17 Pro, 17 Pro Max: All the Rumored Specs Compared",
@@ -114,7 +146,10 @@
     "published_at": "2025-08-16T11:00:14Z",
     "source": "CNET",
     "url": "https://www.cnet.com/tech/mobile/iphone-17-vs-17-air-17-pro-17-pro-max-all-the-rumored-specs-compared/",
-    "sentiment": "The financial sentiment of the text is Neutral."
+    "sentiment": "Neutral",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "title": "iPhone 17 vs. 17 Air, 17 Pro, 17 Pro Max: All the Rumored Specs Compared",
@@ -123,7 +158,10 @@
     "published_at": "2025-08-16T11:00:14Z",
     "source": "CNET",
     "url": "https://www.cnet.com/tech/mobile/iphone-17-vs-17-air-17-pro-17-pro-max-all-the-rumored-specs-compared/",
-    "sentiment": "The financial sentiment of the text is Neutral."
+    "sentiment": "Neutral",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "title": "Ethereum On-Chain Volume Soars To $13 Billion, Approaching Historic Records",
@@ -132,7 +170,10 @@
     "published_at": "2025-08-16T11:00:13Z",
     "source": "newsBTC",
     "url": "http://www.newsbtc.com/news/ethereum/ethereum-on-chain-volume-soars-to-13-billion-approaching-historic-records/",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": [
+      "ETH-USD"
+    ]
   },
   {
     "title": "Your Phone Can Last Years Longer if You Follow These Easy Tips",
@@ -141,7 +182,8 @@
     "published_at": "2025-08-16T11:00:12Z",
     "source": "CNET",
     "url": "https://www.cnet.com/tech/mobile/your-phone-can-last-for-years-if-you-follow-these-easy-tips/",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Positive",
+    "tickers": []
   },
   {
     "title": "How to Get Offline Maps on Your iPhone in a Few Easy Steps",
@@ -150,7 +192,8 @@
     "published_at": "2025-08-16T11:00:10Z",
     "source": "CNET",
     "url": "https://www.cnet.com/tech/mobile/how-to-get-offline-maps-on-your-iphone-in-a-few-easy-steps/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text provides information about a feature (offline maps) without expressing a positive or negative financial sentiment."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Ethereum MVRV Ratio Nears Overheated Zone: Profit-Taking Ahead?",
@@ -159,7 +202,11 @@
     "published_at": "2025-08-16T11:00:09Z",
     "source": "Bitcoinist",
     "url": "https://bitcoinist.com/ethereum-mvrv-ratio-nears-overheated-profit-taking/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. \n\nWhile it discusses the current market conditions and the position of Ethereum, it does not express a clear positive or negative sentiment but rather presents an analysis of the situation."
+    "sentiment": "Negative",
+    "tickers": [
+      "ETH",
+      "BTC"
+    ]
   },
   {
     "title": "Can Google do AI notifications better than Apple? | Authority Insights Podcast #002",
@@ -168,7 +215,8 @@
     "published_at": "2025-08-16T11:00:07Z",
     "source": "Android Authority",
     "url": "https://www.androidauthority.com/authority-insights-podcast-002-3587977/",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text discusses a comparison between Google and Apple regarding AI notifications without expressing a clear positive or negative opinion."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Don't Wait for iOS 26, Download iOS 18.6 Now to Fix This iPhone Security Flaw",
@@ -177,7 +225,8 @@
     "published_at": "2025-08-16T11:00:03Z",
     "source": "CNET",
     "url": "https://www.cnet.com/tech/services-and-software/dont-wait-for-ios-26-download-ios-18-6-now-to-fix-this-iphone-security-flaw/",
-    "sentiment": "The financial sentiment of the text is **Positive**. The message encourages users to take action to improve their device's security, which can be seen as a beneficial and proactive recommendation."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Apple Finally Destroyed Steve Jobs’ Vision of the iPad. Good",
@@ -186,7 +235,10 @@
     "published_at": "2025-08-16T11:00:00Z",
     "source": "Wired",
     "url": "https://www.wired.com/story/apple-finally-destroyed-steve-jobss-vision-of-the-ipad-good/",
-    "sentiment": "The financial sentiment of the text is **Negative**. The language used suggests disappointment and criticism towards Apple's direction with the iPad, indicating a negative view of the company's actions in relation to Steve Jobs' original vision."
+    "sentiment": "Negative",
+    "tickers": [
+      "AAPL"
+    ]
   },
   {
     "title": "The Best American Single Malt Whiskey, According To The Beverage Testing Institute",
@@ -195,7 +247,8 @@
     "published_at": "2025-08-16T11:00:00Z",
     "source": "Forbes",
     "url": "https://www.forbes.com/sites/joemicallef/2025/08/16/the-best-american-single-malt-whiskey-according-to-the-beverage-testing-institute/",
-    "sentiment": "The financial sentiment of the text is **Positive**."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Waymo Picks Up Spotify: Cue Up Personal Playlists on Robotaxi Rides",
@@ -204,7 +257,8 @@
     "published_at": "2025-08-16T11:00:00Z",
     "source": "PCMag.com",
     "url": "https://uk.pcmag.com/cars-auto/159607/waymo-picks-up-spotify-cue-up-personal-playlists-on-robotaxi-rides",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text discusses a partnership between Waymo and Spotify without expressing a clear positive or negative sentiment towards the financial implications of this collaboration."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Waymo Picks Up Spotify: Cue Up Personal Playlists on Robotaxi Rides",
@@ -213,7 +267,8 @@
     "published_at": "2025-08-16T11:00:00Z",
     "source": "PCMag.com",
     "url": "https://me.pcmag.com/en/cars-auto/31734/waymo-picks-up-spotify-cue-up-personal-playlists-on-robotaxi-rides",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text discusses a new feature related to Waymo and Spotify without expressing a clear positive or negative sentiment towards the financial implications or performance of the companies involved."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Links 8/16/2025",
@@ -222,7 +277,8 @@
     "published_at": "2025-08-16T10:55:56Z",
     "source": "Nakedcapitalism.com",
     "url": "https://www.nakedcapitalism.com/2025/08/links-8-16-2025.html",
-    "sentiment": "The financial sentiment of the text is **Neutral**. The text discusses various topics, some of which may have negative connotations (e.g., \"demon weed worries,\" \"Long Covid,\" \"China economy soft,\" \"UK bond wobbles\"), while others are more neutral or vague. Overall, it does not convey a clear positive or negative sentiment regarding financial matters."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "They're stuffed animals. They're also AI chatbots.",
@@ -231,7 +287,8 @@
     "published_at": "2025-08-16T10:51:59Z",
     "source": "The Times of India",
     "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/theyre-stuffed-animals-theyre-also-ai-chatbots-/articleshow/123333190.cms",
-    "sentiment": "The financial sentiment of the text is **Neutral**. \n\nWhile it discusses a product that has positive aspects (promoting screen-free play) and raises concerns (surveillance, emotional outsourcing, dependence on AI), it does not express a clear positive or negative financial outlook."
+    "sentiment": "Neutral",
+    "tickers": []
   },
   {
     "title": "Bitcoin Swift Enters Final Three Days of Stage 5 Presale With $750,000+ in Sales and $60,000+ in Rewards Distributed",
@@ -240,7 +297,10 @@
     "published_at": "2025-08-16T10:49:00Z",
     "source": "GlobeNewswire",
     "url": "https://www.globenewswire.com/news-release/2025/08/16/3134525/0/en/Bitcoin-Swift-Enters-Final-Three-Days-of-Stage-5-Presale-With-750-000-in-Sales-and-60-000-in-Rewards-Distributed.html",
-    "sentiment": "The financial sentiment of the text is **Positive**. The mention of significant sales and rewards distributed indicates a favorable outlook for the Bitcoin Swift project."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC3"
+    ]
   },
   {
     "title": "Treasury Sec Issues Shock September Fed Prediction After Surprise U.S. Bitcoin Reveal Triggered Wild Price Swings",
@@ -249,7 +309,10 @@
     "published_at": "2025-08-16T10:46:28Z",
     "source": "Forbes",
     "url": "https://www.forbes.com/sites/digital-assets/2025/08/16/treasury-secretary-reveals-us-bitcoin-surprise-triggering-price-shockwaves/",
-    "sentiment": "The financial sentiment of the text is **Negative**. The mention of a \"bearish reversal\" and the implication of a surprise revelation leading to \"wild price swings\" suggests a negative outlook on Bitcoin's performance."
+    "sentiment": "Negative",
+    "tickers": [
+      "BTC-USD"
+    ]
   },
   {
     "title": "2 Altcoins That Smart Investors Are Buying Instead of Bitcoin (BTC) in August 2025",
@@ -258,6 +321,11 @@
     "published_at": "2025-08-16T10:45:00Z",
     "source": "Cryptopolitan",
     "url": "https://partner.cryptopolitan.com/2-altcoins-that-smart-investors-are-buying-instead-of-bitcoin-btc-in-august-2025/",
-    "sentiment": "The financial sentiment of the text is **Positive**. The text highlights that experienced investors are looking for altcoins with bigger market potential, suggesting optimism about their prospects compared to Bitcoin."
+    "sentiment": "Positive",
+    "tickers": [
+      "BTC",
+      "MUTM",
+      "XRP"
+    ]
   }
 ]
