@@ -23,5 +23,5 @@ class SQLiteStorage:
     def __init__(self, path: str = "data/news.db"):
         os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
         self.conn = sqlite3.connect(path, check_same_thread=False)
-        self._create_table(
+        self._create_table()
 
