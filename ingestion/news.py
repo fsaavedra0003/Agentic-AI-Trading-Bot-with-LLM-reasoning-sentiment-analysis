@@ -9,3 +9,5 @@ News ingestion:
 import os
 import time
 import json
+import logging
+import sqlite3
