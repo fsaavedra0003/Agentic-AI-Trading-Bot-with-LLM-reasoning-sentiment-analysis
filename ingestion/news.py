@@ -5,3 +5,5 @@ News ingestion:
 - Fallback: RSS via feedparser for keyword feeds
 - Stores to SQLite by default
 """
+
+import os
