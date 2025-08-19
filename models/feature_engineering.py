@@ -4,7 +4,7 @@ Feature Engineering for Trading Bot
 -----------------------------------
 - Combines sentiment data (Reddit + News) with market price snapshots
 - Produces a feature dataset for modeling and later used in the prediction models 
-- the data gets save in a CSV file.
+- The Features will be saved to data/features/features_dataset.csv
 """
 
 import os
