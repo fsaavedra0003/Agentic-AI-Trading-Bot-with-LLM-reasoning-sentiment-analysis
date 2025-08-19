@@ -97,7 +97,8 @@ Agentic-AI-Trading-Bot/
 git clone https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis.git
 cd Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis
 
-Create a virtual environment
+
+2. **Create a virtual environment**
 
 python3 -m venv ai-bot-env
 source ai-bot-env/bin/activate
