@@ -10,7 +10,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 def analyze_text(text: str) -> dict:
     """
     Analyze financial sentiment and extract tickers from text using LLM.
-    Returns a dict with sentiment + tickers.
+    Returns a dict with sentiment + tickers an save it in 
     """
     prompt = f"""
     You are a financial sentiment and ticker analyzer.
