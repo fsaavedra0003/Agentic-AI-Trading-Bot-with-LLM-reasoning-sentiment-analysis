@@ -44,7 +44,8 @@ Dashboard & Monitoring
 
 
 
-![Extract Metrics Screenshot]([https://raw.githubusercontent.com/fsaavedra0003/LangChain-PDF-Chatbot-OpenAI/main/Screenshots/extract_metrics.png](https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis/blob/master/pictures/Architecture_overview.png))
+![Architecture Overview](https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis/blob/master/pictures/Architecture_overview.png?raw=true)
+
 
 
 1 The Reddit Ingestion Script for AI Trading Bot
