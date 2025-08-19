@@ -48,8 +48,19 @@ Dashboard & Monitoring
 
 
 
-1 The Reddit Ingestion Script for AI Trading Bot
--------------------------------------------
-- Fetches posts from relevant subreddits
-- Filters by keywords/tickers
-- Saves results to JSON for sentiment analysis
+Project Overview
+This project demonstrates an autonomous trading agent that:
+
+ingests news, tweets, Reddit and earnings reports,
+
+uses an LLM to produce sentiment, structured insights and high-level reasoning,
+
+calls tool endpoints (technical indicators, risk calculator, position manager),
+
+decides actions (BUY / SELL / HOLD + position sizing + stop/take rules),
+
+optionally executes trades via a broker API (paper mode strongly recommended),
+
+includes backtesting and a small Streamlit dashboard for visualisation.
+
+Goal: be a clear, well-documented, modular reference implementation suitable for GitHub demonstration and extension.
