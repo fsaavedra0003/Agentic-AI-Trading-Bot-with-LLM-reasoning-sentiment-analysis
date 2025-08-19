@@ -3,3 +3,4 @@ feedparser
 praw
 python-dotenv
 openai
+yfinance
