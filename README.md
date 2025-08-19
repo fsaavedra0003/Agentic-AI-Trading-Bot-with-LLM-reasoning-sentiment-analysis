@@ -42,6 +42,8 @@ Dashboard & Monitoring
 
 14. Acknowledgements
 
+![Extract Metrics Screenshot](https://raw.githubusercontent.com/fsaavedra0003/LangChain-PDF-Chatbot-OpenAI/main/Screenshots/extract_metrics.png)
+
 
 1 The Reddit Ingestion Script for AI Trading Bot
 -------------------------------------------
