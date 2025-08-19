@@ -4,3 +4,4 @@ praw
 python-dotenv
 openai
 yfinance
+scikit-learn
