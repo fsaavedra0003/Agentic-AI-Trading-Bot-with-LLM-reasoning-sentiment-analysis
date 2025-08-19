@@ -102,3 +102,40 @@ Create a virtual environment
 python3 -m venv ai-bot-env
 source ai-bot-env/bin/activate
 
+3. Install dependencies
+
+pip install -r requirements.txt
+
+4. Set environment variables in a .env file:
+
+# Twitter API
+TWITTER_BEARER_TOKEN=your_token_here
+
+# OpenAI
+OPENAI_API_KEY=sk-xxxxxx
+
+# Broker API (paper trading)
+ALPACA_API_KEY=xxxx
+ALPACA_SECRET_KEY=xxxx
+
+5.Run the bot
+python main.py
+
+---
+
+Configuration & Environment Variables
+Use a .env file at the root of the repo
+
+Supports:
+
+TWITTER_BEARER_TOKEN — Twitter ingestion
+
+REDDIT_SUBREDDIT / REDDIT_QUERY — Pushshift ingestion
+
+OPENAI_API_KEY — LLM sentiment and reasoning
+
+Broker credentials: ALPACA_API_KEY, ALPACA_SECRET_KEY
+
+Loaded automatically via python-dotenv
+
+
