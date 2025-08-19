@@ -1,85 +1,104 @@
-AI Trading Bot — LLM Agent with Sentiment Analysis
+# AI Trading Bot — LLM Agent with Sentiment Analysis
 
-A production-style, agentic AI trading bot that combines LLM reasoning, sentiment analysis, market indicators, and broker APIs to make and (optionally) execute trading decisions.
+A **production-style, agentic AI trading bot** that combines LLM reasoning, sentiment analysis, market indicators, and broker APIs to make and (optionally) execute trading decisions.
 
+This repository is designed as a **portfolio / research project** demonstrating full-stack AI/ML engineering: ingestion, models, agents (tool orchestration), backtesting, execution, monitoring, and a small UI.
 
-This repo is designed as a portfolio / research project showing full-stack AI/ML engineering: ingestion, models, agents (tool orchestration), backtesting, execution, monitoring, and a small UI
+---
 
+## Table of Contents
 
-Table of Contents
+1. [Project Overview](#project-overview)  
+2. [Features](#features)  
+3. [Architecture](#architecture)  
+4. [Repo Structure](#repo-structure)  
+5. [Quickstart (Dev / Paper Trading)](#quickstart-dev--paper-trading)  
+6. [Configuration & Environment Variables](#configuration--environment-variables)  
+7. [Detailed Components](#detailed-components)  
+   - Ingestion  
+   - LLM Layer & Prompts  
+   - Decision Agent (Tooling)  
+   - Prediction Models / Backtesting  
+   - Execution  
+   - Dashboard & Monitoring  
+8. [Example Prompts & Response Schema](#example-prompts--response-schema)  
+9. [Risk Management & Safety](#risk-management--safety)  
+10. [Deployment Suggestions](#deployment-suggestions)  
+11. [Testing & Evaluation](#testing--evaluation)  
+12. [Contributing](#contributing)  
+13. [License](#license)  
+14. [Acknowledgements](#acknowledgements)  
 
-1. Project Overview
-2. Features
-3. Architecture
-4. Repo Structure
-5. Quickstart (Dev / Paper Trading)
-6. Configuration & Environment Variables
-7. Detailed Components
+---
 
-Ingestion
-
-LLM Layer & Prompts
-
-Decision Agent (Tooling)
-
-Prediction Models / Backtesting
-
-Execution
-
-Dashboard & Monitoring
-
-8. Example Prompts & Response Schema
-
-9. Risk Management & Safety
-
-10. Deployment Suggestions
-
-11. Testing & Evaluation
-
-12. Contributing
-
-13. License
-
-14. Acknowledgements
-
-
+## Architecture
 
 ![Architecture Overview](https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis/blob/master/pictures/Architecture_overview.png?raw=true)
 
+- Multi-source ingestion (Twitter, Reddit, news, earnings PDFs)  
+- LLM reasoning and sentiment analysis  
+- Decision agent orchestrating tools, ML predictions, and configurable rules  
+- Optional broker execution (paper trading recommended)  
+- Backtesting engine and dashboard for monitoring  
+
+---
+
+## Project Overview
+
+This project demonstrates an **autonomous trading agent** that:
+
+- Ingests **news, tweets, Reddit posts, and earnings reports**  
+- Uses an **LLM** to produce sentiment, structured insights, and high-level reasoning  
+- Calls **tool endpoints** for technical indicators, risk calculation, and position management  
+- Decides actions: `BUY` / `SELL` / `HOLD` + position sizing + stop/take rules  
+- Optionally executes trades via broker API (paper mode strongly recommended)  
+- Includes **backtesting** and a small **Streamlit dashboard** for visualization  
+
+**Goal:** a clear, modular, and well-documented reference implementation suitable for **portfolio demonstration and extension**.
+
+---
+
+## Features
+
+- **Multi-source ingestion:** Twitter, Reddit, News API, earnings PDFs  
+- **LLM-based analysis:** sentiment, summarization, reasoning (swap easily between models/providers)  
+- **Agent orchestration:** LangChain-style tool pattern included  
+- **Hybrid decision logic:** LLM reasoning + configurable rules + ML models  
+- **Backtesting & paper-trading:** Alpaca / Binance adapter included  
+- **Dashboard:** Streamlit visualization for sentiment & trade logs  
+- **CI / Tests / Docker:** unit tests, pre-commit hooks, Dockerfile examples  
+- **Security & risk controls:** max position size, circuit breakers, configurable risk limits  
+
+---
+
+## Repo Structure
+
+Agentic-AI-Trading-Bot/
+│
+├─ ingestion/ # Twitter, Reddit, News, PDFs ingestion scripts
+├─ sentiment/ # LLM-based sentiment & analysis modules
+├─ models/ # ML models, feature engineering, backtesting
+├─ agents/ # Agent orchestration & tool invocation
+├─ execution/ # Broker adapters for paper/real trading
+├─ dashboard/ # Streamlit UI
+├─ config/ # .env, settings, and credentials
+├─ tests/ # Unit tests
+├─ main.py # Entry point for orchestrating ingestion -> analysis -> decision
+├─ requirements.txt # Python dependencies
+└─ README.md
 
 
-Project Overview
-This project demonstrates an autonomous trading agent that:
+---
 
-ingests news, tweets, Reddit and earnings reports,
+## Quickstart (Dev / Paper Trading)
 
-uses an LLM to produce sentiment, structured insights and high-level reasoning,
+1. **Clone the repo**
+```bash
+git clone https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis.git
+cd Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis
 
-calls tool endpoints (technical indicators, risk calculator, position manager),
+Create a virtual environment
 
-decides actions (BUY / SELL / HOLD + position sizing + stop/take rules),
+python3 -m venv ai-bot-env
+source ai-bot-env/bin/activate
 
-optionally executes trades via a broker API (paper mode strongly recommended),
-
-includes backtesting and a small Streamlit dashboard for visualisation.
-
-Goal: be a clear, well-documented, modular reference implementation suitable for GitHub demonstration and extension.
-
-----
-
-Features
-Multi-source ingestion (Twitter, Reddit, News API, earnings PDFs)
-
-LLM-based sentiment, summarization, and reasoning (easy to swap model/provider)
-
-Agent orchestration (LangChain-like tool pattern included)
-
-Hybrid decision logic: LLM reasoning + configurable rules + ML models
-
-Backtesting engine and paper-trading support (Alpaca / Binance adapter)
-
-Streamlit dashboard with sentiment & trade logs
-
-CI checks, unit tests, and deployment Dockerfile examples
-
-Designed with security and risk controls (max position size, circuit breakers)
