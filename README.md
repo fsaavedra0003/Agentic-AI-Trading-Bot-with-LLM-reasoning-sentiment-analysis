@@ -64,3 +64,22 @@ optionally executes trades via a broker API (paper mode strongly recommended),
 includes backtesting and a small Streamlit dashboard for visualisation.
 
 Goal: be a clear, well-documented, modular reference implementation suitable for GitHub demonstration and extension.
+
+----
+
+Features
+Multi-source ingestion (Twitter, Reddit, News API, earnings PDFs)
+
+LLM-based sentiment, summarization, and reasoning (easy to swap model/provider)
+
+Agent orchestration (LangChain-like tool pattern included)
+
+Hybrid decision logic: LLM reasoning + configurable rules + ML models
+
+Backtesting engine and paper-trading support (Alpaca / Binance adapter)
+
+Streamlit dashboard with sentiment & trade logs
+
+CI checks, unit tests, and deployment Dockerfile examples
+
+Designed with security and risk controls (max position size, circuit breakers)
