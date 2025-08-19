@@ -48,3 +48,5 @@ Dashboard & Monitoring
 - Fetches posts from relevant subreddits
 - Filters by keywords/tickers
 - Saves results to JSON for sentiment analysis
+
+![Architecture Overview](https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis/blob/master/pictures/Architecture_overview.png?raw=true)
