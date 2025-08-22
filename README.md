@@ -119,7 +119,7 @@ OPENAI_API_KEY=sk-xxxxxx
 ALPACA_API_KEY=xxxx
 ALPACA_SECRET_KEY=xxxx
 
-5.Run the bot
+5.Run the bot with the main file
 python main.py
 
 ---
