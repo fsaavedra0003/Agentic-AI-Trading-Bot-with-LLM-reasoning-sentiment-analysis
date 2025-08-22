@@ -92,13 +92,13 @@ Agentic-AI-Trading-Bot/
 
 ## Quickstart (Dev / Paper Trading)
 
-1. **Clone the repo**
+1. *Clone the repo**
 ```bash
 git clone https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis.git
 cd Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis
 
 
-2. **Create a virtual environment**
+2. *Create a virtual environment**
 
 python3 -m venv ai-bot-env
 source ai-bot-env/bin/activate
