@@ -115,7 +115,7 @@ TWITTER_BEARER_TOKEN=your_token_here
 # OpenAI
 OPENAI_API_KEY=sk-xxxxxx
 
-# Broker API (paper trading)
+# Broker API (paper trading) to obtain data 
 ALPACA_API_KEY=xxxx
 ALPACA_SECRET_KEY=xxxx
 
