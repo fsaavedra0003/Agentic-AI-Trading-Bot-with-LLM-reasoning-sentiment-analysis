@@ -109,7 +109,7 @@ pip install -r requirements.txt
 
 4. Set environment variables in a .env file:
 
-# Twitter API
+# Twitter API to get the data
 TWITTER_BEARER_TOKEN=your_token_here
 
 # OpenAI
