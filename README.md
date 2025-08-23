@@ -13,3 +13,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
 ---
 
 ## 📑 Table of Contents
+
+1. [Project Overview](#project-overview)  
+2. [Features](#features)  
+
