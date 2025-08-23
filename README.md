@@ -31,6 +31,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
 9. [Risk Management & Safety](#risk-management--safety)  
 10. [Deployment Suggestions](#deployment-suggestions)  
 11. [Testing & Evaluation](#testing--evaluation)  
+12. [Contributing](#contributing)  
 
 ---
 
