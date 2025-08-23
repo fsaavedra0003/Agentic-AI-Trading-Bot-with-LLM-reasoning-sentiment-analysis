@@ -28,6 +28,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
    - Execution  
    - Dashboard & Monitoring  
 8. [Example Prompts & Response Schema](#example-prompts--response-schema)  
+9. [Risk Management & Safety](#risk-management--safety)  
 
 
 ---
