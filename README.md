@@ -17,5 +17,6 @@ This repository is designed as a **portfolio / research project** demonstrating 
 1. [Project Overview](#project-overview)  
 2. [Features](#features) 
 3. [Architecture](#architecture)
-4. [Repo Structure](#repo-structure)     
+4. [Repo Structure](#repo-structure)
+5. [Quickstart](#quickstart)       
 
