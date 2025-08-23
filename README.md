@@ -20,3 +20,10 @@ This repository is designed as a **portfolio / research project** demonstrating 
 4. [Repo Structure](#repo-structure)
 5. [Quickstart](#quickstart)       
 6. [Configuration & Environment Variables](#configuration--environment-variables) 
+7. [Detailed Components](#detailed-components)  
+   - Ingestion  
+   - LLM Layer & Prompts  
+   - Decision Agent (Tooling)  
+   - Prediction Models / Backtesting  
+   - Execution  
+   - Dashboard & Monitoring  
