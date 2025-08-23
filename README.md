@@ -5,3 +5,4 @@ A **production-style, agentic AI trading bot** that combines **LLM reasoning, se
 This repository is designed as a **portfolio / research project** demonstrating full-stack AI/ML engineering:
 
 - Data ingestion (news, Reddit, Twitter/X, earnings PDFs) 
+- LLM reasoning & tool orchestration  
