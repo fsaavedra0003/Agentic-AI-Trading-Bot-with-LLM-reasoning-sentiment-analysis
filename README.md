@@ -27,6 +27,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
    - Prediction Models / Backtesting  
    - Execution  
    - Dashboard & Monitoring  
+8. [Example Prompts & Response Schema](#example-prompts--response-schema)  
 
 
 ---
