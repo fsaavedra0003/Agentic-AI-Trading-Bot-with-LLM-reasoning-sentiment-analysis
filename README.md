@@ -19,4 +19,4 @@ This repository is designed as a **portfolio / research project** demonstrating 
 3. [Architecture](#architecture)
 4. [Repo Structure](#repo-structure)
 5. [Quickstart](#quickstart)       
-
+6. [Configuration & Environment Variables](#configuration--environment-variables) 
