@@ -11,3 +11,5 @@ This repository is designed as a **portfolio / research project** demonstrating 
 - Execution & monitoring with a Streamlit dashboard 
 
 ---
+
+## 📑 Table of Contents
