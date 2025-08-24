@@ -40,3 +40,6 @@ This repository is designed as a **portfolio / research project** demonstrating 
 ## 🏗️ Architecture
 
 ![Architecture Overview](https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis/blob/master/pictures/Architecture_overview.png?raw=true)
+
+**Pipeline Overview:**
+
