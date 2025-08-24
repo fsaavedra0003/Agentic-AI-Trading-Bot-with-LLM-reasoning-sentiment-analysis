@@ -33,6 +33,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
 11. [Testing & Evaluation](#testing--evaluation)  
 12. [Contributing](#contributing)  
 13. [License](#license)  
+14. [Acknowledgements](#acknowledgements)  
 
 ---
 
