@@ -49,3 +49,5 @@ This repository is designed as a **portfolio / research project** demonstrating 
 - Broker API: executes trades (paper trading recommended)  
 - Backtesting & monitoring via Streamlit dashboard  
 
+---
+
