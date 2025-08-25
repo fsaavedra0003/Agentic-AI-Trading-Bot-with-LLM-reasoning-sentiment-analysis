@@ -47,4 +47,5 @@ This repository is designed as a **portfolio / research project** demonstrating 
 - LLM reasoning: sentiment, structured insights, and decision-making 
 - Decision agent: orchestrates tools, indicators, and ML models  
 - Broker API: executes trades (paper trading recommended)  
+- Backtesting & monitoring via Streamlit dashboard  
 
