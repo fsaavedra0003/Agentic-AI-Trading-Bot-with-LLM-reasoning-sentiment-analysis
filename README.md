@@ -53,3 +53,5 @@ This repository is designed as a **portfolio / research project** demonstrating 
 
 ## 📘 Project Overview
 
+This project demonstrates an **autonomous trading agent** that:
+
