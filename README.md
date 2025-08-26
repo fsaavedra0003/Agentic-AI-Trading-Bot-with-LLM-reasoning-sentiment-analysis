@@ -60,3 +60,5 @@ This project demonstrates an **autonomous trading agent** that:
 - Makes decisions: `BUY` / `SELL` / `HOLD` + stop-loss/take-profit rules  
 - Optionally executes trades via broker API (paper trading strongly recommended)  
 - Includes **backtesting** and a **dashboard** for visualization  
+
+**Goal:** Provide a **clear, modular, and documented** reference for portfolio demonstration and extension.
