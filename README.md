@@ -62,3 +62,7 @@ This project demonstrates an **autonomous trading agent** that:
 - Includes **backtesting** and a **dashboard** for visualization  
 
 **Goal:** Provide a **clear, modular, and documented** reference for portfolio demonstration and extension.
+
+---
+
+## 🚀 Features
