@@ -69,3 +69,4 @@ This project demonstrates an **autonomous trading agent** that:
 
 - **Multi-source ingestion:** Twitter, Reddit, News API, earnings PDFs  
 - **LLM-based analysis:** Sentiment, summarization, reasoning (swap providers easily)
+- **Agent orchestration:** LangChain-style tool pattern  
