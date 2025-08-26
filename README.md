@@ -72,3 +72,4 @@ This project demonstrates an **autonomous trading agent** that:
 - **Agent orchestration:** LangChain-style tool pattern  
 - **Hybrid decision logic:** LLM reasoning + configurable rules + ML models  
 - **Trading support:** Backtesting + paper-trading (Alpaca / Binance adapters) 
+- **Dashboard:** Streamlit visualization for sentiment & trade logs  
