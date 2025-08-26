@@ -55,4 +55,5 @@ This repository is designed as a **portfolio / research project** demonstrating 
 
 This project demonstrates an **autonomous trading agent** that:
 - Ingests **news, tweets, Reddit posts, and earnings reports**  
-- Uses an **LLM** for sentiment, summarization, and structured reasoning  
+- Uses an **LLM** for sentiment, summarization, and structured reasoning
+- Invokes **tools** for technical indicators, risk calculation, and position sizing   
