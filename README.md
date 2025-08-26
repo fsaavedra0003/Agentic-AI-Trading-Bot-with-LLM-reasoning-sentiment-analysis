@@ -66,3 +66,6 @@ This project demonstrates an **autonomous trading agent** that:
 ---
 
 ## 🚀 Features
+
+- **Multi-source ingestion:** Twitter, Reddit, News API, earnings PDFs  
+- **LLM-based analysis:** Sentiment, summarization, reasoning (swap providers easily)
