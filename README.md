@@ -75,3 +75,7 @@ This project demonstrates an **autonomous trading agent** that:
 - **Dashboard:** Streamlit visualization for sentiment & trade logs  
 - **DevOps ready:** CI checks, unit tests, Dockerfile examples 
 - **Risk controls:** max position size, configurable limits, circuit breakers  
+
+---
+
+## 📂 Repo Structure
