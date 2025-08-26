@@ -73,3 +73,4 @@ This project demonstrates an **autonomous trading agent** that:
 - **Hybrid decision logic:** LLM reasoning + configurable rules + ML models  
 - **Trading support:** Backtesting + paper-trading (Alpaca / Binance adapters) 
 - **Dashboard:** Streamlit visualization for sentiment & trade logs  
+- **DevOps ready:** CI checks, unit tests, Dockerfile examples 
