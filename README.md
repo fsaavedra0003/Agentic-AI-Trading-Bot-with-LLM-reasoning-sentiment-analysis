@@ -57,3 +57,4 @@ This project demonstrates an **autonomous trading agent** that:
 - Ingests **news, tweets, Reddit posts, and earnings reports**  
 - Uses an **LLM** for sentiment, summarization, and structured reasoning
 - Invokes **tools** for technical indicators, risk calculation, and position sizing   
+- Makes decisions: `BUY` / `SELL` / `HOLD` + stop-loss/take-profit rules  
