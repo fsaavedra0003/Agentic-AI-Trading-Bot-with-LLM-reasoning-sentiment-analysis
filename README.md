@@ -88,6 +88,6 @@ Agentic-AI-Trading-Bot/
 ├─ agents/ # Agent orchestration & tool invocation
 ├─ execution/ # Broker adapters (paper/real trading)
 ├─ dashboard/ # Streamlit UI
-├─ config/ # Env variables, settings, credentials
+
 
 
