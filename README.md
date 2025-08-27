@@ -89,6 +89,5 @@ Agentic-AI-Trading-Bot/
 ├─ execution/ # Broker adapters (paper/real trading)
 ├─ dashboard/ # Streamlit UI
 ├─ config/ # Env variables, settings, credentials
-├─ tests/ # Unit tests
 
 
