@@ -87,7 +87,7 @@ Agentic-AI-Trading-Bot/
 ├─ models/ # ML models, feature engineering, backtesting
 ├─ agents/ # Agent orchestration & tool invocation
 ├─ execution/ # Broker adapters (paper/real trading)
-├─ dashboard/ # Streamlit UI
+
 
 
 
