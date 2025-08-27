@@ -86,7 +86,7 @@ Agentic-AI-Trading-Bot/
 ├─ sentiment/ # LLM-based sentiment & reasoning modules
 ├─ models/ # ML models, feature engineering, backtesting
 ├─ agents/ # Agent orchestration & tool invocation
-├─ execution/ # Broker adapters (paper/real trading)
+
 
 
 
