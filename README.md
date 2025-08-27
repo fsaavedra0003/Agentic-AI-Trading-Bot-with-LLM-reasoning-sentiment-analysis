@@ -90,5 +90,5 @@ Agentic-AI-Trading-Bot/
 ├─ dashboard/ # Streamlit UI
 ├─ config/ # Env variables, settings, credentials
 ├─ tests/ # Unit tests
-├─ main.py # Entry point (ingestion → analysis → decision)
+
 
