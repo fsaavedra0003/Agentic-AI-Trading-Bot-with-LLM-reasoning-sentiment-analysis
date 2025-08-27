@@ -82,7 +82,7 @@ This project demonstrates an **autonomous trading agent** that:
 
 Agentic-AI-Trading-Bot/
 │
-├
+
 
 
 
