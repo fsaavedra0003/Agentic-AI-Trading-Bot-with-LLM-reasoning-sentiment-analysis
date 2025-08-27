@@ -85,7 +85,7 @@ Agentic-AI-Trading-Bot/
 ├─ ingestion/ # Twitter, Reddit, News, PDFs ingestion
 ├─ sentiment/ # LLM-based sentiment & reasoning modules
 ├─ models/ # ML models, feature engineering, backtesting
-├─ agents/ # Agent orchestration & tool invocation
+
 
 
 
