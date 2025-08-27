@@ -83,7 +83,7 @@ This project demonstrates an **autonomous trading agent** that:
 Agentic-AI-Trading-Bot/
 │
 ├─ ingestion/ # Twitter, Reddit, News, PDFs ingestion
-├─ sentiment/ # LLM-based sentiment & reasoning modules
+
 
 
 
