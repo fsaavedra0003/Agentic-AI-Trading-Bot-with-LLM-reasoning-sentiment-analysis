@@ -80,7 +80,7 @@ This project demonstrates an **autonomous trading agent** that:
 
 ## 📂 Repo Structure
 
-Agentic-AI-Trading-
+Agentic-AI-Trading
 
 
 
