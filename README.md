@@ -80,7 +80,19 @@ This project demonstrates an **autonomous trading agent** that:
 
 ## 📂 Repo Structure
 
-
+Agentic-AI-Trading-Bot/
+│
+├─ ingestion/ # Twitter, Reddit, News, PDFs ingestion
+├─ sentiment/ # LLM-based sentiment & reasoning modules
+├─ models/ # ML models, feature engineering, backtesting
+├─ agents/ # Agent orchestration & tool invocation
+├─ execution/ # Broker adapters (paper/real trading)
+├─ dashboard/ # Streamlit UI
+├─ config/ # Env variables, settings, credentials
+├─ tests/ # Unit tests
+├─ main.py # Entry point (ingestion → analysis → decision)
+├─ requirements.txt # Python dependencies
+└─ README.md
 
 
 
