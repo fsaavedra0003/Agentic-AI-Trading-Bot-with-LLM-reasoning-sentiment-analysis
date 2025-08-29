@@ -91,8 +91,7 @@ Agentic-AI-Trading-Bot/
 ├─ config/ # Env variables, settings, credentials
 ├─ tests/ # Unit tests
 ├─ main.py # Entry point (ingestion → analysis → decision)
-├─ requirements.txt # Python dependencies
-└─ README.md
+
 
 
 
