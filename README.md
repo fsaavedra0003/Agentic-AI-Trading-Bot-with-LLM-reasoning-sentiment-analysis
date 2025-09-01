@@ -94,9 +94,14 @@ Agentic-AI-Trading-Bot/
 ├─ requirements.txt # Python dependencies
 └─ README.md
 
+## ⚡ Quickstart
 
 
 
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis.git
+   cd Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis
 
 
 
