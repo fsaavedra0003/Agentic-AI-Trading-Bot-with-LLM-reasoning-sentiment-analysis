@@ -92,6 +92,7 @@ Agentic-AI-Trading-Bot/
 ├─ tests/ # Unit tests
 ├─ main.py # Entry point (ingestion → analysis → decision)
 ├─ requirements.txt # Python dependencies
+└─ README.md
 
 
 
