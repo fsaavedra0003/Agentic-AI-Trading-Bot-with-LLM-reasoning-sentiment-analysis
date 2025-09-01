@@ -101,7 +101,7 @@ Agentic-AI-Trading-Bot/
 1. **Clone the repo**
    ```bash
    git clone https://github.com/fsaavedra0003/Agentic-AI-Trading-Bot-with-LLM-reasoning-sentiment-analysis.git
-   cd Agentic-AI-Trading-Bot-with-LLM
+   cd Agentic-AI-Trading-Bot-with-LL
 
 
 
