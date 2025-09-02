@@ -9,3 +9,5 @@ XGBoost model for Buy/Sell/Hold signals
 - Can also run prediction on a features CSV.
 
 Usage:
+
+  # Train (uses data/features/features_dataset.csv by default)
