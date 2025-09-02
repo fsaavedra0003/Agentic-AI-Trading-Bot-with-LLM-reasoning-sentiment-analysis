@@ -3,7 +3,7 @@ News Ingestion Script for AI Trading Bot
 ----------------------------------------
 - Fetches latest financial news articles
 - Filters by keywords (tickers, company names)
-- Saves results to JSON for sentiment analysis
+- Saves results to JSON file for sentiment analysis
 """
 
 import os
