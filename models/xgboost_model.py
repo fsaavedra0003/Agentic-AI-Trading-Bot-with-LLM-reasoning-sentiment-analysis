@@ -12,3 +12,5 @@ Usage:
 
   # Train (uses data/features/features_dataset.csv by default)
   python models/xgboost_model.py --mode train
+
+    # Predict (reads data/features/features_dataset.csv by default)
