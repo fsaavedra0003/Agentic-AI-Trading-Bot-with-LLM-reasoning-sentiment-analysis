@@ -19,3 +19,6 @@ Usage:
    # Custom paths
 
      python models/xgboost_model.py --mode train --input data/features/my_features.csv
+
+       python models/xgboost_model.py --mode predict --input data/features/my_latest_features.csv
+"""
