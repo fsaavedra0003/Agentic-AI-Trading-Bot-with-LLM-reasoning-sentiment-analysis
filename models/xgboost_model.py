@@ -11,3 +11,4 @@ XGBoost model for Buy/Sell/Hold signals
 Usage:
 
   # Train (uses data/features/features_dataset.csv by default)
+  python models/xgboost_model.py --mode train
