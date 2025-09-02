@@ -14,3 +14,8 @@ Usage:
   python models/xgboost_model.py --mode train
 
     # Predict (reads data/features/features_dataset.csv by default)
+ python models/xgboost_model.py --mode predict
+
+   # Custom paths
+
+     python models/xgboost_model.py --mode train --input data/features/my_features.csv
