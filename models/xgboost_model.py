@@ -1,5 +1,6 @@
 # models/xgboost_model.py
 
+# models/xgboost_model.py
 """
 XGBoost model for Buy/Sell/Hold signals
 
@@ -9,16 +10,15 @@ XGBoost model for Buy/Sell/Hold signals
 - Can also run prediction on a features CSV.
 
 Usage:
-
   # Train (uses data/features/features_dataset.csv by default)
   python models/xgboost_model.py --mode train
 
-    # Predict (reads data/features/features_dataset.csv by default)
- python models/xgboost_model.py --mode predict
+  # Predict (reads data/features/features_dataset.csv by default)
+  python models/xgboost_model.py --mode predict
 
-   # Custom paths
-
-     python models/xgboost_model.py --mode train --input data/features/my_features.csv
-
-       python models/xgboost_model.py --mode predict --input data/features/my_latest_features.csv
+  # Custom paths
+  python models/xgboost_model.py --mode train --input data/features/my_features.csv
+  python models/xgboost_model.py --mode predict --input data/features/my_latest_features.csv
 """
+
+import os
