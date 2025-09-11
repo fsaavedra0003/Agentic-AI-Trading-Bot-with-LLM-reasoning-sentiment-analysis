@@ -104,5 +104,5 @@ if __name__ == "__main__":
     df = build_feature_dataset()
     os.makedirs("data/features", exist_ok=True)
     df.to_csv(OUTPUT_FILE, index=False)
-    print(f"✅ Features saved to {OUTPUT_FILE}")
+    print(f" Features saved to {OUTPUT_FILE}")
     print(df.head())
