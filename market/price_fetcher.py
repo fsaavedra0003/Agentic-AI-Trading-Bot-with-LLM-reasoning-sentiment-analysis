@@ -14,7 +14,7 @@ import json
 from datetime import datetime
 import yfinance as yf
 
-# Paths
+# Paths for the data 
 DATA_DIR = "data/processed"
 PROCESSED_FILES = [
     os.path.join(DATA_DIR, "reddit_with_sentiment.json"),
