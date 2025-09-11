@@ -5,6 +5,8 @@ Market Price Fetcher (Dynamic Tickers)
 - Reads tickers from processed sentiment JSON files
 - Fetches latest stock/crypto prices using Yahoo Finance (yfinance)
 - Saves results into data/processed/market_prices.json to JSON file
+
+
 """
 
 import os
