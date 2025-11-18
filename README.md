@@ -7,7 +7,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
 - Data ingestion (News, Reddit, Twitter/X, PDFs).
 - LLM reasoning & tool orchestration  
 - Hybrid decision logic (LLM + ML + rules)
-- Backtesting & paper trading  
+- Backtesting & paper trading  API
 - Execution & monitoring with a Streamlit dashboard
 - Low risk
 
