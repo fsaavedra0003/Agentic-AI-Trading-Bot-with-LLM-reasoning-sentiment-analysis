@@ -9,7 +9,7 @@ This repository is designed as a **portfolio / research project** demonstrating 
 - Hybrid decision logic (LLM + ML + rules)
 - Backtesting & paper trading  API
 - Execution & monitoring with a Streamlit dashboard
-- Low risk
+- Low risk invest 
 
 ---
 
